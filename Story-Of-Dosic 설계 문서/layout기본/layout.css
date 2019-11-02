@@ -1,0 +1,242 @@
+/*
+*{margin: 0; padding: 0;}
+body
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+li{list-style: none;}
+
+a{text-decoration:none;}
+
+header
+{
+	width: 900px; height: 80px;
+	background-color: #FDC3E0;
+	position:fixed;
+	top: 0;
+	padding: 40px 30px 0 30px;
+}
+
+#title
+{
+	height: 40px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+//	font-family: 'Fjalla One', sans-serif;
+	
+}
+
+header>nav
+{
+	height: 40px;
+	overflow: hidden;
+}
+#content
+{
+	margin-top: 120px;
+	padding: 10px;
+}
+.left
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+}
+.middle
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+}
+.right
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+}
+.menu-item
+{
+	display: block;
+	height: 30px; width: 80px;
+	padding: 5px 20px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+header>nav
+{
+	height: 40px;
+	overflow: hidden;
+}
+#content
+{
+	margin-top: 120px;
+	padding: 10px;
+}
+*/
+  .outer-menu-item:hover /*이건 hover됬을때만 적용*/
+        {
+        	color:white;
+        	background-color:black;
+        }
+        .outer-menu-item
+        {
+            display: block;
+        	height:30px; width:80px;
+        	float: left;
+        	padding: 7px 51px;
+        	text-align: center;
+        	line-height:
+        }
+		
+		a{text-decoration: none}
+		
+		li{list-style: none}
+		
+		*
+		{
+			font: "맑은 고딕",Gothic, sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		body
+		{
+			background-color: #E6E6E6;
+			width: 960px;
+			margin: 0px auto;
+		}
+		
+		#page-wrapper
+		{
+			background-color: white;
+			margin: 40px 0 0 0;
+			padding: 10px 20px;
+			
+		}
+
+		.master-title{font-size: 30px; color:#191919; text-align: center; }
+	
+		#main-header{padding: 40px 50px;}
+		
+		
+
+		
+		.input-search
+		{
+			display: block;
+			padding-left: 10px;
+			height: 24px; width: 120px;
+			border: 1px solid #CCCCCC;
+			border-radius: 15px 0 0 15px;
+			float: left;
+        }
+
+        .input-search:focus{outline: 0;}
+
+		.input-search-submit
+		{
+			display: block;
+			height: 26px; width: 50px;
+			border: 1px solid #CCCCCC;
+			border-radius: 0 15px 15px 0;
+			float: left;
+		}
+
+		.article-header{padding: 20px 0;}
+
+		#main-navigation
+		{
+			border-top: 1px solid #C9C9C9;
+			border-bottom: 1px solid #C9C9C9;
+			height: 40px;
+			margin:0 0 20px 0;
+
+		}
+
+		.pull-left
+		{
+			height: 40px;
+			float: left;
+		}
+
+
+		
+		#main-section
+		{
+			width: 710px;
+			float: left;
+		}
+
+		#main-aside
+		{
+			width: 200px;
+			float: right;
+		}
+
+
+		#content
+        {
+        	overflow: auto;
+
+        }
+     
+
+
+.profile
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 210px;
+	height: 210px;
+}
+.chatting
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 210px;
+	height: 360px;
+}
+
+.link
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 410px;
+	height: 285px;
+}
+.photos
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	margin-right: 5px
+	width: 405px;
+	height: 285px;
+}
+.news
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	width: 210px;
+	height: 520px;
+}
+.chatbot
+{
+	padding: 10px;
+	border:1px solid black;
+	margin-top: 10px;
+	width: 210px;
+	height: 50px;
+}
+.left{float: left;}
